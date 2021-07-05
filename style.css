@@ -9,13 +9,14 @@ h1{
 .header-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
-    margin-bottom: 150px;
+    
 }
 .half-width img {
     width: 75%;
@@ -37,5 +38,9 @@ section{
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right ;
+    background-position: right;
+    
+}
+.experience-area{
+
 }
